@@ -10,6 +10,7 @@
         // set the provider you want from Web3.providers
         web3 = new Web3(new Web3.providers.HttpProvider("https://goerli.net/"));
       }
+console.log("ACCS" + web3.eth.getAccounts());
 
       // ABI of the ERC20 token contract
       var abi = [
