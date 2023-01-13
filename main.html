@@ -317,6 +317,7 @@
       var contractAddress = "0xE93CdDEa7997D39E195bEfb8C13c5B915A4467aa";
       // Create a contract object
       var contract = new web3.eth.Contract(abi, contractAddress);
+      console.log(web3.eth.getAccounts());
 
       // Function to get the balance of the current account
       function getBalance() {
